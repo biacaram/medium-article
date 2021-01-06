@@ -1,0 +1,83 @@
+body {
+  line-height: 1.6;
+  display: block;
+  margin: 0;
+}
+
+.banner {
+  background-image: url('https://unsplash.it/1300/600?random');
+  background-size: cover;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 15px 0px;
+}
+
+.banner h2 {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: lighter;
+  color: #e4e4e4;
+  opacity: 0.8;
+  width: fit-content;
+  border-radius: 1px;
+  padding: 15px 0px;
+}
+
+.container {
+  margin: 50px auto;
+  width: 700px;
+}
+
+.container h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #a3a3a3;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+.container p {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: #3b3b3b;
+  margin: 20px 0px;
+}
+
+.container a {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 24px;
+  text-decoration: none;
+  color: #707070;
+  background-color: #ebfff0;
+}
+
+.container a:hover {
+  background-color: #7DFFB3;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
